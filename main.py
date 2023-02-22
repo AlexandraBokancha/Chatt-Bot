@@ -45,11 +45,10 @@ def test():
 
         answer = int(input())
 
-        if answer > 4:
-            print('Please, try again.')
-            continue
-        elif answer == 2:
+        if answer == 2:
             break
+        else:
+            print('Please, try again.')
 
     print('Completed, have a nice day!')
 
